@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    
+    height: 100vh;
+
+}
+
+.top-bar {
+    width: 100%;
+    padding: 0 15px;
+    height: 85px;
+    background: white;
+    position: fixed;
+    text-align: center;
+    
+}
+.navbar{
+    width: 100%;
+    padding: 0 15px;
+    height: 90px;
+    background: orangered; 
+    padding-top: 90px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.navbar p{
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+#sidebar{
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    right: -30%;
+    background-color: white ;
+    
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: orangered;
+    align-items: baseline;
+    font-size: 30px;
+    
+}
+
+#sidebar li{
+    color: #000;
+    font-size: 30px;
+    padding: 19px;
+    
+    text-align: center;
+    list-style: none;
+}
+
+#sidebar li a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.profile-btn{
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+
+#sidebar.active{
+    right: 0;
+}
+
+.profiles-1, .profiles-2, .profiles-3, .profiles-4{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.profiles-1, .profiles-2, .profiles-3, .profiles-4 div{
+    
+   margin: 3px;
+   
+}
+
+.box-1{
+    min-height: 100px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/images\ \(3\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-2{
+    min-height: 200px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/images.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-3{
+   min-height: 350px;
+   min-width: 375px;
+   background-image: url('../picturesandgifs/download\ \(2\).jpg');
+   background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.box-4{
+    min-height: 350px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/download\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-5{
+    min-height: 100px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/download.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-6{
+    min-height: 200px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/images\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+.box-7{
+   min-height: 350px;
+   min-width: 375px;
+   background-image: url('../picturesandgifs/images\ \(2\).jpg');
+   background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-8{
+    min-height: 350px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/images\ \(4\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-9{
+    min-height: 100px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/download\ \(3\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+.box-10{
+    min-height: 200px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/download\ \(4\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+.box-11{
+   min-height: 350px;
+   min-width: 375px;
+   background-image: url('../picturesandgifs/images\ \(8\).jpg');
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-12{
+    min-height: 350px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/images\ \(6\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-13{
+    min-height: 100px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/images\ \(7\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+.box-14{
+    min-height: 200px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/images\ \(5\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-15{
+   min-height: 350px;
+   min-width: 375px;
+   background-image: url('../picturesandgifs/images\ \(9\).jpg');
+   background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-16{
+    min-height: 350px;
+    min-width: 375px;
+    background-image: url('../picturesandgifs/images\ \(10\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
